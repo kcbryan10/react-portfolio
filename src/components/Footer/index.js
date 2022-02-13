@@ -4,9 +4,9 @@ export default class Footer extends Component {
     let personalData = this.props.personalData;
     return (
       <footer>
-      <div className="row">
-        <div className="twelve columns">
-          <ul className="social-links">
+      <div>
+        <div>
+          <ul>
             {
               personalData.socialLinks && personalData.socialLinks.map((item)=>{
                 return(
@@ -21,7 +21,7 @@ export default class Footer extends Component {
           </ul>
           
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+        <div><a><i/></a></div>
       </div>
     </footer>
     );

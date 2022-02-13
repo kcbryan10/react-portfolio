@@ -3,37 +3,27 @@ export default class About extends Component {
     render() {
         let personalData = this.props.personalData;
         return (
-            <section id="about">
-                <div className="row">
-
-                    <div className="three columns">
-
-                        <img className="profile-pic" src="images/profilepic.jpg" alt="" />
-
-                    </div>
-
-                    <div className="nine columns main-col">
+            <section>
+                <div>
+                    <div>
 
                         <h2>About Me</h2>
                         <p>
-                            {
-                                personalData.aboutme
-                            }
+                            {personalData.aboutme}
                         </p>
+                        <div>
 
-                        <div className="row">
+                            <div>
 
-                            <div className="columns contact-details">
-
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    <span>{personalData.name}</span>
+                                <h2>Person Information</h2>
+                                <p>
+                                    <span>Name: {personalData.name}</span>
                                     <br></br>
                                     <span>
-                                        {personalData.address}
+                                        Address: {personalData.address}
                                     </span>
                                     <br></br>
-                                    <span>{personalData.website}</span>
+                                    <span>Github Link: <a href="https://github.com/kcbryan10">{personalData.website}</a></span>
                                 </p>
                             </div>
                         </div>

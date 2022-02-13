@@ -3,7 +3,6 @@ let personalData = {
     "name": "Bryan Keller",
     "role": "Frontend/Backend Developer",
     "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
     "roleDescription": " i have attended the KU coding bootcamp and have learned/ can created front end and backend code for multiple purposes",
     "socialLinks":[
         {
@@ -22,37 +21,33 @@ let personalData = {
     "website":"https://github.com/kcbryan10",
     "education":[
       {
-        "UniversityName":"Some Place",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"March",
-        "YearOfPassing":"2022",
-        "Achievements":"Some Achievements"
+        "University":"University of Kansas",
+        "DateOfCompletion":"March 4th 2022",
+        "DegreeOrCertificate": "Obtained a KU coding bootcamp certification"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"March",
-        "YearOfPassing":"2022",
-        "Achievements":"Some Achievements"
+        "University":"Another degree i got",
+        "DateOfCompletion":"april 9th 2022",
+        "DegreeOrCertificate": " Tts my birthday this day. Congrats!"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Airforce",
+        "JobTitle":"Crew Chief",
+        "DateOfJoin":"Feb 2020",
+        "DateOfLeaving":"N/A",
+        "Description":"as a crew chief in the airforce i was responsible for checking planes and oking them for flight. i also cordinate with other shops on base to facilitate matienance "
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Company A",
+        "JobTitle":"Some specialization",
+        "DateOfJoin":"Some date",
+        "DateOfLeaving":"N/A",
+        "Description":" i worked here"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":" These are the skills ive learn throughout the KU coding camp",
     "skills":[
       {
         "skillname":"HTML5"
@@ -61,7 +56,19 @@ let personalData = {
         "skillname":"CSS"
       },
       {
+        "skillname":"Node"
+      },
+      {
+        "skillname":"Express"
+      },
+      {
+        "skillname":"MongoDB"
+      },
+      {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"GraphQl"
       }
     ],
     "portfolio":[

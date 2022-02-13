@@ -3,25 +3,23 @@ export default class Porfolio extends Component {
   render() {
     let personalData = this.props.personalData;
     return (
-      <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Work i have done!</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+      <section >
+      <div>
+        <div>
+          <h1>Examples of my work</h1>
+          <div>
           {
             personalData.portfolio && personalData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
+                <div>
+                  <div>
+                      <div>
+                        <div>
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
+                        <img src={`${item.imgurl}`}/>
                       </div>
-                    </a>
                   </div>
                 </div>
               )
